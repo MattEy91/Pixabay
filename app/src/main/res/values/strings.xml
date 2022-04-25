@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Pixabay</string>
+    <string name="label_search">Search</string>
+    <string name="label_detail">Details</string>
+    <string name="no_results">No results</string>
+    <string name="error_occurred">oops…an error occurred, please try again</string>
+    <string name="alert_title">Want more infos?</string>
+    <string name="alert_message">Click on yes to go to detail page</string>
+    <string name="alert_yes">Yes</string>
+    <string name="alert_no">No</string>
+    <string name="likes_count">%1$d likes</string>
+    <string name="downloads_count">%1$d downloads</string>
+    <string name="comments_count">%1$d comments</string>
+</resources>

@@ -1,0 +1,26 @@
+buildscript {
+    ext.glideVersion = '4.13.1'
+    ext.retrofitVersion = "2.9.0"
+    ext.roomVersion = '2.4.2'
+    ext.archLifecycleVersion = '2.4.1'
+    ext.coroutines = '1.6.0'
+    ext.hiltVersion = '2.41'
+    ext.navigationVersion = '2.4.2'
+    ext.rxJavaVersion = '2.1.8'
+    ext.rxAndroidVersion = '2.1.1'
+
+    repositories {
+        google()
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath "com.google.dagger:hilt-android-gradle-plugin:$hiltVersion"
+        classpath "androidx.navigation:navigation-safe-args-gradle-plugin:$navigationVersion"
+        classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:1.6.10'
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
